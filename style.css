@@ -4,9 +4,8 @@ body {
 }
 
 h1 {
-  font-size: 3.5rem;
-  font-family: "Garamond";
-  font-weight: bold;
+  font-size: 3rem;
+  font-family: "EB+Garamond";
 }
 
 P {
@@ -128,18 +127,21 @@ h2 {
   line-height: 1.6rem;
 }
 
-.projects .card {
+.card-select {
   color: #000;
   transition: all .4s ease-in-out;
   background: #ff;
   border: 2px solid #EEEEEE;
 }
 
-.projects .card:hover {
+.card-select:hover {
   background: transparent;
   border-color: #0000ff;
 }
-
+.card a{
+  text-decoration: none;
+  color: #000000;
+}
 /*----------------------- aboutme----------------------- */
 
 .col-md-6 .title-image {
