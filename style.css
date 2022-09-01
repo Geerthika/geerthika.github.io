@@ -1,0 +1,200 @@
+body {
+  font-family: "Poppins" sans-serif;
+  padding: 0 10%;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-family: "Garamond";
+  font-weight: bold;
+}
+
+P {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  color: #A1A1A1;
+  width: 100%;
+}
+.intro{
+  font-size: 1rem;
+  line-height: 1.4rem;
+  color: #A1A1A1;
+}
+.row h6 {
+  letter-spacing: 0.3rem;
+  font-size: 1rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  grid-row-gap: 2.5rem;
+  padding-top: 7%;
+  padding-bottom: 4%;
+}
+
+/* navbar */
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.navbar {
+  padding: 0;
+  padding-top: 3.5%;
+  padding-bottom: 3.5%;
+  font-size: 1rem;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  background-color: #fff;
+}
+
+.nav-item::after {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 2px;
+  background: #0000FF;
+  transition: 0.4s
+}
+
+.nav-item:hover::after {
+  width: 100%
+}
+
+.nav-link {
+  padding: 5px 5px;
+  transition: 0.2s
+}
+
+/* buttons */
+.download-cv {
+  margin: 5% 3% 5% 0;
+}
+
+/* mypic */
+.col-md-5 .img {
+  padding: 0 5% 0 10%;
+}
+
+/* social icons */
+.fa {
+  padding: 3%;
+  text-align: center;
+  text-decoration: none;
+}
+.homesocial .fa-linkedin{
+  padding-left: 0;
+}
+.fa:hover {
+  opacity: 0.7;
+  color: #0000ff;
+}
+.fa-behance {
+  color: #000;
+}
+
+.fa-linkedin {
+  color: #000;
+}
+
+.fa-envelope {
+  color: #000;
+}
+
+/*----------------------- portfolio----------------------- */
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.header p {
+  font-size: 1rem;
+  color: #595959;
+  line-height: 1.9rem;
+}
+
+/* card */
+
+.card {
+  border-style: none;
+  background-color: #F7F7F7;
+}
+
+.card-text {
+  line-height: 1.6rem;
+}
+
+.projects .card {
+  color: #000;
+  transition: all .4s ease-in-out;
+  background: #ff;
+  border: 2px solid #EEEEEE;
+}
+
+.projects .card:hover {
+  background: transparent;
+  border-color: #0000ff;
+}
+
+/*----------------------- aboutme----------------------- */
+
+.col-md-6 .title-image {
+  padding: 0 10% 0 0;
+}
+
+.aboutme p {
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+  color: #595959;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+  color: #A1A1A1;
+}
+
+h6 {
+  font-size: 1.4rem;
+}
+
+.hcp p {
+  font-size: 1rem;
+}
+
+h4 {
+  font-size: 0.8rem;
+  color: #A1A1A1;
+}
+
+.abouthead p {
+  font-size: 1rem;
+  color: #595959;
+  line-height: 1.9rem;
+}
+.abouthead{
+  grid-row-gap: 0;
+}
+.content{
+  padding-top: 1%;
+  padding-bottom: 3%;
+}
+.hr {
+  padding-top: 5%;
+}
+
+.content{
+  padding-top: 0;
+}
+.img-fluid img{
+  grid-row-gap: 0;
+}
+/*----------------------- skills----------------------- */
+.col-md-6 li {
+  font-size: 1.2rem;
+  line-height: 1.9rem;
+  color: #595959;
