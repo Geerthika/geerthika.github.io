@@ -15,7 +15,7 @@ P {
   width: 100%;
 }
 .navbar-toggler{
-  border: none;
+  border: 0;
 }
 button:focus{
   outline: 0;
@@ -35,7 +35,7 @@ button:focus{
   flex-wrap: wrap;
   grid-row-gap: 2.5rem;
   padding-top: 6%;
-  padding-bottom: 3%;
+  padding-bottom: 4%;
 }
 
 /* navbar */
