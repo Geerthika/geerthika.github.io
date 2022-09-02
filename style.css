@@ -1,6 +1,6 @@
 body {
   font-family: "Poppins" sans-serif;
-  padding: 0 10%;
+  padding: 0 10% 2% 10%;
 }
 
 h1 {
@@ -28,8 +28,8 @@ P {
   display: flex;
   flex-wrap: wrap;
   grid-row-gap: 2.5rem;
-  padding-top: 7%;
-  padding-bottom: 4%;
+  padding-top: 6%;
+  padding-bottom: 3%;
 }
 
 /* navbar */
@@ -197,6 +197,6 @@ h4 {
 }
 /*----------------------- skills----------------------- */
 .col-md-6 li {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 1.9rem;
   color: #595959;
