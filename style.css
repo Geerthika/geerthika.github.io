@@ -185,6 +185,8 @@ h4 {
   line-height: 1.9rem;
 }
 .abouthead{
+  padding-top: 2%;
+  padding-bottom: 5%;
   grid-row-gap: 0;
 }
 .content{
@@ -200,6 +202,9 @@ h4 {
 }
 .img-fluid img{
   grid-row-gap: 0;
+}
+.hobby{
+  padding-top: 0;
 }
 /*----------------------- skills----------------------- */
 .col-md-6 li {
