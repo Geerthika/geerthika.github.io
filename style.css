@@ -73,6 +73,9 @@ button:focus{
   padding: 5px 5px;
   transition: 0.2s
 }
+.nav-link .active{
+  color: #0000FF;
+}
 
 /* buttons */
 .download-cv {
