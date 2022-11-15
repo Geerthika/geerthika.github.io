@@ -73,6 +73,9 @@ button:focus{
   padding: 5px 5px;
   transition: 0.2s
 }
+.nav-link .active{
+  color: #0000FF;
+}
 
 /* buttons */
 .download-cv {
@@ -86,7 +89,7 @@ button:focus{
 
 /* social icons */
 .fa {
-  padding: 3%;
+  padding: 4%;
   text-align: center;
   text-decoration: none;
 }
@@ -106,6 +109,10 @@ button:focus{
 }
 
 .fa-envelope {
+  color: #000;
+}
+
+.fa-medium {
   color: #000;
 }
 
@@ -154,7 +161,7 @@ h2 {
 }
 .col-sm-6{
   padding-bottom: 2%;
-  padding-right: 4%;
+  padding-right: 5%;
 \
 }
 /*----------------------- aboutme----------------------- */
