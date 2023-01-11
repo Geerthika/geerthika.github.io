@@ -220,6 +220,7 @@ h4 {
   padding-top: 0;
 }
 .img-fluid img{
+  border-radius: 50%;
   grid-row-gap: 0;
 }
 .hobby{
